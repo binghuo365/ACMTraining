@@ -1,6 +1,6 @@
 ## 描述
 
-![img](http://raw.github.com/binghuo365/ACMTraining/master/acm-503/1.png)
+![img](https://raw.githubusercontent.com/binghuo365/ACMTraining/master/acm_503/1.png)
 
 热带岛屿Lagrishan的首领现在面临一个问题：几年前，一批外援资金被用于维护村落之间的道路，但日益繁茂的丛林无情的侵蚀着村民的道路，导致道路维修开销巨大，长老会不得不放弃部分道路的维护。上图左侧图显示的是正在使用道路的简图以及每条路每个月的维修费用（单位为aacms）。现在长老会需要提出一种方案，即需要保证村落之间都可以互相到达，又要将每个月的道路维修费用控制在最小。村子编号为从A到I。上图右侧显示的方案最小维修开销为216 aacms每月。
 ## 输入
@@ -22,6 +22,7 @@
 * A 2 B 10 C 40
 * B 1 C 20
 * 0
+
 ## 样例输出
 * 216
 * 30
