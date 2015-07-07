@@ -3,6 +3,7 @@
 #include <stack>
 #include <map>
 #include <vector>
+#include "stdio.h"
 
 struct TreeNode
 {
@@ -45,8 +46,10 @@ int main()
 	std::map<int, TreeNode*> mapTree;
 	for (int i = 0; i <= personNum; ++i)
 	{
-		std::string temp;
-		getline(std::cin, temp);
+		char str[100];
+		gets_s(str);
+		std::string temp = str;
+		//getline(std::cin, temp);
 		int currentSkip = getSkip(temp);
 		if (currentSkip == 0)
 		{
@@ -68,8 +71,9 @@ int main()
 
 	for (int j = 0; j < wordsNum; ++j)
 	{
-		std::string temp;
-		getline(std::cin, temp);
+		char str[100];
+		gets_s(str);
+		std::string temp = str;
 		questions.push_back(temp);
 	}
 
@@ -133,7 +137,7 @@ bool judge(TreeNode* globalTree, std::string str)
 							}
 							else
 							{
-								tempNode = preTree->parent;
+								tempNode = tempNode->parent;
 							}
 						}
 						return false;
